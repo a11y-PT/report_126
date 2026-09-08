@@ -11,10 +11,10 @@ status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Audit
 
 # Site Institucional do Município de Vila Flor (Sítio Web)
 
-- Data de criação: {{ page.date }}
-- URL: {{ page.uri }}
-- Propriedade: {{ page.owner }}
-- Candidatura: {{ page.seal }}
+- Data de criação: 20/07/2026
+- URL: https://www.cm-vilaflor.pt/
+- Propriedade: Município de Vila Flor
+- Candidatura: Ouro
 - Validade do selo: 08-09-2026 a 08-09-2027
 - Estado: Concluído
 
