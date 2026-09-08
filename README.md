@@ -5,31 +5,29 @@ uri: "https://www.cm-vilaflor.pt/"   # Entre as aspas escreve o domínio do webs
 a11y_statement: "https://www.cm-vilaflor.pt/declaracao-de-acessibilidade-e-usabilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "Município de Vila Flor"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+validity: "08-09-2026 a 08-09-2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Relatório de auditoria
-
-Sítio Web: {{ page.website }}
+# Site Institucional do Município de Vila Flor (Sítio Web)
 
 - Data de criação: {{ page.date }}
 - URL: {{ page.uri }}
 - Propriedade: {{ page.owner }}
 - Candidatura: {{ page.seal }}
-- Validade do selo: {{ page.validity }}
-- Estado: {{ page.status }}
+- Validade do selo: 08-09-2026 a 08-09-2027
+- Estado: Concluído
 
-## Relatório {{ page.website }}
+##  Relatório de auditoria
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
+Consulte aqui a última atualização: [Relatório Site Institucional do Município de Vila Flor](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="20072026_report.html">(20/07/2026). Relatório {{ page.website }}</a></li>
+    <li><a href="08092026_report.html">(08/09/2026). Relatório Site Institucional do Município de Vila Flor</a></li>
   </ul>
 </details>
 
